@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.banner{
+    min-height: 500px;
+    width: 100%;
+    color: white;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQGuOdeKijGatg/company-background_10000/0/1625666169469?e=2159024400&v=beta&t=30-MdsFe2vGOxk5YDV06WS39AzB_c6NCLwK25bVHzRI);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.banner-h{
+    margin-top: 7%;
+    font-size: 4rem;
+}
+.join-btn{
+    color: white !important;
+}
+.about-img{
+    margin-left: 10%;
+}
+.team{
+    background-image: url(https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_650,q_auto:good,w_2560/v1/gcs/platform-data-dsc/contentbuilder/dsc-bevy-chapterevents-03%20%281%29.png);
+    background-size: cover;
+}
+.profile-card{
+    border-radius: 2%;
+    /* margin: 60px; */
+    flex-direction: column;
+    background-color: white;
+    min-width: 300px;
+}
+.profile-card:hover{
+    transform: scale(1.1);
+}
+.p-card-img{
+    display: flex;
+    justify-content: center;
+}
+.p-card-img img{
+    border-radius: 50%;
+}
+.event-part{
+    padding: 0 !important;
+}
+.contact{
+    /* background-image: url(https://thumbs.dreamstime.com/b/app-application-new-software-update-flat-line-filled-icon-beautiful-logo-button-over-yellow-background-ui-ux-website-145359474.jpg); */
+    background-color: rgb(255, 196, 35);
+    display: flex;
+    justify-content: center;
+    /* background-position: left; */
+}
+.btn-danger{
+    width: 300px ;
+    margin: 20px;
+    /* margin-left: 0; */
+}
+form{
+    margin-left: 20px !important;
+}
