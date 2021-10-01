@@ -11,7 +11,7 @@ function Navbar() {
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
                   <img
-                    style={{ width: "400px" }}
+                    style={{ width: "50%" }}
                     className="logo my-2"
                     src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-dsc/contentbuilder/logo_dark_horizontal_097s7oa.svg"
                     alt="phonics-logo"
@@ -56,7 +56,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                       <NavLink className="nav-link" to="/contact">
-                        Contact Us
+                        Contact
                       </NavLink>
                     </li>
                   </ul>
